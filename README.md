@@ -9,9 +9,8 @@ Web one-page (HTML + CSS + JS vanilla, sin build) del portfolio de Virginia Muss
 - Output Directory: *(vacío / raíz)*
 - Root Directory: `./`
 
-## Archivos pendientes en `media/`
+## Archivos en `media/`
 
-El HTML los referencia con ruta relativa; hasta que se añadan, no cargarán:
-
-- `media/casa-westfalia-alimentaria-2026.mp4` — vídeo del caso Alimentaria (`VIDEO_READY = true`).
-- `media/CV_Virginia_Mussio_ES.pdf` y `media/CV_Virginia_Mussio_EN.pdf` — botón "Descargar CV" (requiere `CV_READY = true` en `index.html`).
+- `casa-westfalia-alimentaria-2026.mp4` — vídeo del caso Alimentaria (`VIDEO_READY = true`).
+- `CV_Virginia_Mussio_ES.pdf` y `CV_Virginia_Mussio_EN.pdf` — botón "Descargar CV" (`CV_READY = true`).
+- `img/` y `clip-convencion-*.mp4` — imágenes y clip extraídos del HTML.

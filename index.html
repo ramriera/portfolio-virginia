@@ -5576,7 +5576,7 @@ figure{margin:0}
   /* ---------- CV download ----------
      Set CV_READY to true once the PDFs are hosted on the site:
      media/CV_Virginia_Mussio_ES.pdf and media/CV_Virginia_Mussio_EN.pdf */
-  var CV_READY = false;
+  var CV_READY = true;
   window.__cvRefresh = function(){
     var a = document.querySelector("[data-cv]"); if(!a) return;
     a.closest(".xp-cv").hidden = !CV_READY;
